@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  background-image: url("/Portifolio/assets/Background_Intro.png");
+}
+
+.profile-pic {
+  width: 87.27px;
+  height: 87.27px;
+  border-radius: 100%;
+  border: 2px solid var(--red);
+  object-fit: cover;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.text-header {
+  h1 {
+    font: var(--Title-lg);
+    margin-bottom: 2rem;
+    color: var(--gray-600);
+  }
+}
+
+.paragrafo-apresentação {
+  font: var(--Subtitle);
+  margin-top: 5rem;
+  color: var(--gray-500);
+  margin-bottom: 0.5rem;
+
+  span {
+    color: var(--red);
+  }
+}
+
+.paragrafo-sobre-mim {
+  font: var(--Text-sm);
+  margin-bottom: 5rem;
+  color: var(--gray-400);
+}
+
+.tags {
+  background-color: var(--gray-300);
+  width: 114px;
+  height: 40px;
+  padding: 16px 10px;
+  border-radius: 9999px;
+  text-decoration: none;
+  color: var(--gray-500);
+  margin-right: 30px;
+  font: var(--Text-md);
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  text-align: center;
+  gap: 6px;
+}
+
+.techs-tags {
+  display: flex;
+}
+
+.csharp {
+  width: 68px;
+}
+
+.react {
+  width: 90px;
+}
+
+.node {
+  width: 99px;
+}
+
+.javascript {
+  width: 120px;
+}
+
+.oracle {
+  width: 92px;
+}
+
+.typescript {
+  width: 125px;
+}
+
+.angular {
+  width: 103px;
+}
+
+.github {
+  width: 98px;
+}
+
+.icon-header {
+  display: flex;
+  margin-top: 5rem;
+}
