@@ -1,0 +1,134 @@
+main {
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(/Portifolio/assets/Background_Contacts.png);
+  height: 1200px;
+}
+
+.header-projects {
+  margin-top: 7rem;
+
+  h5 {
+    font: var(--Subtitle);
+    color: var(--red);
+  }
+
+  h3 {
+    font: var(--Title-md);
+    color: var(--gray-600);
+  }
+}
+
+.projects-images {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.project-card {
+  border: 2px solid var(--gray-300);
+  padding: 16px;
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--gray-300);
+  margin-top: 30px;
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+  h6 {
+    color: var(--gray-600);
+    font: var(--Title-sm);
+  }
+
+  p {
+    color: var(--gray-500);
+    font: var(--Text-sm);
+  }
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 1rem;
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+.services {
+  background-color: var(--gray-100);
+  width: 1366 px;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h5 {
+    font: var(--Subtitle);
+    color: var(--red);
+  }
+  h3 {
+    font: var(--Title-md);
+    color: var(--gray-600);
+  }
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 3rem;
+}
+
+.skill-web {
+  width: 280px;
+  height: 150px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(180, 100, 255, 0.2);
+
+  h6 {
+    color: var(--gray-600);
+    font: var(--Title-sm);
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  p {
+    font: var(--Text-sm);
+    color: var(--gray-500);
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+  }
+
+  img {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+}
