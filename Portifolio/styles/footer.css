@@ -1,8 +1,103 @@
 footer {
   background-image: url(/Portifolio/assets/Background_Contacts.png);
-  height: 787px;
+  min-height: 787px;
 }
 
 .footer-header {
- h
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h5 {
+    font: var(--Subtitle);
+    color: var(--purple);
+    margin-top: 12rem;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font: var(--Title-md);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  h6 {
+    font: var(--Text-md);
+    color: var(--gray-500);
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-midias {
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-social-midias {
+  width: 100%;
+  max-width: 400px;
+  height: 68px;
+  padding: 20px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.card-social-midias a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font: var(--Text-md);
+}
+
+.card-social-midias {
+  width: 400px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-social-midias a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  span {
+    color: var(--gray-500);
+  }
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-text img {
+  width: 24px;
+  height: 24px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
 }

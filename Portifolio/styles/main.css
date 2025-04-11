@@ -83,7 +83,7 @@ main {
   flex-direction: column;
 }
 
-.footer-header {
+.services-header {
   display: flex;
   justify-content: center;
   flex-direction: column;
